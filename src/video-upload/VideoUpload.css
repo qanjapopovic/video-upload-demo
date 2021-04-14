@@ -1,0 +1,55 @@
+.choose-file-container {
+  background-color: black;
+  height: 200px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 24px;
+  margin-bottom: 24px;
+  cursor: pointer;
+}
+
+.choose-file-text {
+  color: white;
+}
+
+.upload-btn {
+  background-color: black;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+}
+
+.upload-btn:disabled {
+  background-color: lightgray;
+}
+
+.remove-video-label {
+  cursor: pointer;
+  letter-spacing: 0.3px;
+  padding: 8px 0;
+}
+
+.remove-video-label:hover {
+  text-decoration: underline;
+}
+
+.file-info {
+  color: #505050;
+}
+
+.progress-container {
+  margin: 24px 0;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+}
+
+.mb-8 {
+  margin-bottom: 8px;
+}
